@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Campus Transport Optimizer</title>
-    <style>
-        body { font-family: Arial; background: #f4f4f9; padding: 20px; }
-        h1 { color: #0066cc; }
-        table { border-collapse: collapse; width: 80%; margin-top: 20px; }
-        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
-    </style>
+  <title>Campus Transport Optimizer</title>
+  <style>
+    body { font-family: Arial; background: #f7f7f7; padding: 20px; }
+    h1 { color: #007bff; }
+    .info { margin-bottom: 20px; font-size: 18px; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #007bff; color: white; }
+  </style>
 </head>
 <body>
-    <h1>Campus Transport Demand and Route Optimizer</h1>
-    {{ tables|safe }}
+  <h1>Campus Transport Demand and Route Optimizer 🚍</h1>
+  <div class="info">
+    <p><strong>Total Buses:</strong> {{ total_buses }}</p>
+    <p><strong>Average Students per Route:</strong> {{ avg_students }}</p>
+    <p><strong>Earliest Departure:</strong> {{ earliest_stop }} at {{ earliest_time }}</p>
+  </div>
+
+  <h2>Bus Route Details</h2>
+  {{ tables | safe }}
 </body>
 </html>
+
