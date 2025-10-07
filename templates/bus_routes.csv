@@ -1,0 +1,11 @@
+Bus_No,Route_ID,Start_Stop,Start_Latitude,Start_Longitude,Avg_Students,Departure_Time,End_Stop,End_Latitude,End_Longitude,Arrival_Time,Day
+Bus 1,1,Ambattur,13.1143,80.1486,40,07:30,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 2,2,Koyambedu,13.0700,80.1947,70,07:35,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 3,3,Anna Nagar,13.0878,80.2131,45,07:40,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 4,4,Chennai Central,13.0827,80.2707,60,07:20,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 5,5,T Nagar,13.0358,80.2300,50,07:25,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 6,6,Velachery,12.9791,80.2209,55,07:15,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 7,7,Perambur,13.1178,80.2453,35,07:45,St. Peter’s College,13.1147,80.0956,08:10,Mon
+Bus 8,8,Adyar,13.0012,80.2559,30,07:10,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 9,9,Mylapore,13.0320,80.2707,40,07:25,St. Peter’s College,13.1147,80.0956,08:00,Mon
+Bus 10,10,Guindy,13.0105,80.2126,65,07:30,St. Peter’s College,13.1147,80.0956,08:00,Mon
